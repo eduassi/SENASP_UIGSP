@@ -1,8 +1,8 @@
 ﻿{
   "information": {
-    "modulo-numero": "MÓDULO 1",
-    "modulo-resumido": "M1",
-    "modulo-nome": "CONCEITOS E ASPECTOS LEGAIS: CONTEXTO GERAL "
+    "modulo-numero": "MÓDULO 2",
+    "modulo-resumido": "M2",
+    "modulo-nome": "SISTEMA DE INFORMAÇÃO EM SEGURANÇA PÚBLICA"
   },
   "configuration": {
     "target": "#menu_item_list",
@@ -26,12 +26,16 @@
     }
     ,
     {
-      "placeholder": "Realize a atividade",
+      "placeholder": "Aula 3",
       "url": "pages/capitulo_3.html"
     },
     {
-      "placeholder": "Referências",
+      "placeholder": "Realize a atividade",
       "url": "pages/capitulo_4.html"
+    },
+    {
+      "placeholder": "Referências",
+      "url": "pages/capitulo_5.html"
     }
   ]
 }
