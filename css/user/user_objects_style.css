@@ -239,6 +239,40 @@
   border-bottom-right-radius: 10px;
 }
 
+.modulo_1 .accordion-automatic .card {
+  border: 0;
+  margin: 5px 0;
+}
+
+.modulo_1 .accordion-automatic .card-header {
+  background-color: var(--THEME_COLOR_MODULE_ONE);
+  background-image: url(../../assets/images/module_common/seta_branca_90_graus.png);
+  background-size: 25px 22px;
+  background-position: right 5px center;
+  border-radius: 0;
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+  border: 0;
+}
+
+.modulo_1 .accordion-automatic .card-header.collapsed {
+  background-color: var(--THEME_COLOR_MODULE_ONE_LIGHT);
+  background-image: url(../../assets/images/module_1/resources/seta_corada.png);
+  background-size: 22px 25px;
+  background-position: right 5px center;
+  border-radius: 5px !important;
+}
+
+.modulo_1 .accordion-automatic .card-body {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.modulo_1 .accordion-automatic h5{
+  margin: 0;
+}
+
+
 .modulo_1 .card-body {
   border: 1pt solid var(--THEME_COLOR_MODULE_ONE_STRONG);
 }

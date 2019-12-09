@@ -162,6 +162,28 @@ var refresh_objects_listeners = function () {
         });
     });
 
+    //ACCORDION AUTOMATIC LOADER
+    $.each($(".accordion-automatic"), function(index, element) {
+        let tabs_id = "aan-" + index;
+        let tabs = $(this).find(".card");
+        $(this).attr("id", tabs_id);
+        $.each(tabs, function(i, card) {
+        let children = $(card).children("div");
+        let title_div = children[0];
+        let body_div = children[1];
+        let body_id = tabs_id + "_tab_" + i;
+        if (i % 2 == 1) {
+            $(title_div).addClass("card-header light-color pointer collapsed");
+        } else {
+            $(title_div).addClass("card-header pointer collapsed");
+        }
+        $(title_div).attr("data-toggle", "collapse");
+        $(title_div).attr("data-target", "#" + body_id);
+        $(body_div).addClass("card-body collapse");
+        $(body_div).attr("id", body_id);
+        });
+    });
+
 
     //VENTANITA LOADER
     $.each($(".ventanita"), function (index, element) {
