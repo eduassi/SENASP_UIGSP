@@ -9,6 +9,12 @@ body {
   body {
     margin-top: 100px;
   }
+  .flipster_carousel_slide{
+    width: 70%;
+  }
+  .flipster_carousel_slides{
+    margin: 0;
+  }
 }
 
 section {
