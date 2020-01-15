@@ -2,12 +2,12 @@
     "information": {
         "modulo-numero": "MÓDULO 4",
         "modulo-resumido": "M4",
-        "modulo-nome": "SISTEMA NACIONAL DE INFORMAÇÕES DE SEGURANÇA PÚBLICA, PRISIONAIS, DE RASTREABILIDADE DE ARMAS E MUNIÇÕES, DE MATERIAL GENÉTICO, DE DIGITAIS E DE DROGAS – SINESP"
+        "modulo-nome": "SINE – SINESP"
     },
     "configuration": {
         "target": "#menu_item_list",
         "start-level": 0,
-        "max-level": 6,
+        "max-level": 7,
         "min-level": 0,
         "prefix-name": "pages/capitulo_"
     },
