@@ -1378,7 +1378,7 @@
 
 .progress-image-slider .progress-bar-button-wrapper {
   position: absolute;
-  top: 0;
+  top: 100%;
   left: 0;
   height: 100%;
   width: 100%;
@@ -1406,7 +1406,7 @@
 
 .title-slider{
   min-height: 30px; 
-  background-color: #c6ebd8; 
+  /* background-color: #c6ebd8;  */
   padding: 5px; 
   text-align: center; 
   margin:0
