@@ -1405,12 +1405,16 @@
 }
 
 .title-slider{
-  height: 80px; 
-  background-color: #ffd151; 
+  min-height: 30px; 
+  background-color: #c6ebd8; 
   padding: 5px; 
   text-align: center; 
   margin:0
 }
 
+
+.section{
+  margin:0;
+}
 
 
