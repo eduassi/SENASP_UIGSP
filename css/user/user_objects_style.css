@@ -1376,9 +1376,14 @@
   border: 1px dashed var(--THEME_COLOR_MODULE_ONE) !important;
 }
 
+.progress{
+  top:98%;
+  width: 98%;
+}
+
 .progress-image-slider .progress-bar-button-wrapper {
   position: absolute;
-  top: 100%;
+  top: 0;
   left: 0;
   height: 100%;
   width: 100%;
@@ -1414,7 +1419,7 @@
 
 
 .section{
-  margin:0;
+  padding: 0;
 }
 
 
