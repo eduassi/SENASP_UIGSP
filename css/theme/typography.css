@@ -238,20 +238,22 @@ figcaption {
     background-image: linear-gradient( var(--THEME_COLOR_MODULE_FOUR), var(--THEME_COLOR_MODULE_FOUR));
 }
 
+
+/* NOVO */
 .modulo_1 h2,
 .modulo_2 h2,
 .modulo_3 h2,
 .modulo_4 h2 {
-    text-transform: uppercase;
-    background-position: 0 0;
-    background-size: 80px 3px;
-    background-repeat: no-repeat;
-    padding-top: 10px;
-    margin-top: 2rem;
-    font-weight: bold;
-    font-size: 20pt;
+  text-transform: uppercase;
+  background-position: 0 0;
+  background-size: 80px 3px;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  /* margin-top: 2rem; */
+  font-weight: bold;
+  font-size: 20pt;
+  margin-top: 80px;
 }
-
 
 /*  H3  */
 
@@ -280,18 +282,17 @@ figcaption {
 
 
 /* NOVO */
-
 .modulo_1 h3,
 .modulo_2 h3,
 .modulo_3 h3,
 .modulo_4 h3 {
-    background-position: bottom left;
-    background-size: 100% 1px;
-    background-repeat: no-repeat;
-    padding-left: 0;
-    font-weight: bold;
-    font-size: 18pt;
-    margin-top: 60px;
+  background-position: bottom left;
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  padding-left: 0;
+  font-weight: bold;
+  font-size: 18pt;
+  margin-top: 60px;
 }
 
 
