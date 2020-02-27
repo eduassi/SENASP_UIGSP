@@ -213,7 +213,7 @@ a.capitulo-link {
 
 @media screen and (max-width: 375px) {
     .chapter-display {
-        display: none;
+        display: block;
     }
 }
 
