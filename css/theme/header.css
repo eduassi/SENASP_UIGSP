@@ -212,9 +212,11 @@ a.capitulo-link {
 }
 
 @media screen and (max-width: 375px) {
-    .chapter-display {
-        display: none;
-    }
+    /* novo */
+	.chapter-display {
+		display: block;
+	}
+}
 }
 
 a.btn-menu {

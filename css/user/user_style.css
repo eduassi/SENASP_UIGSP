@@ -48,24 +48,38 @@ section {
 
 
 /* NOVO */
-
-.color-light {
+.color-light{
     color: var(--THEME_COLOR_MODULE_ONE_LIGHT);
-}
-
-
-/* NOVO */
-
-.modal-body {
+  }
+  
+  /* NOVO */
+  .modal-body {
     padding: 0 1rem;
     margin-top: 0;
-}
-
-
-/* NOVO */
-
-.tab-content p,
-.tab-content ul li,
-.tab-content ol li {
+  }
+  
+  /* NOVO */
+  .aos-rw{
+    position: relative;
+    width: 100%;
+  }
+  /* NOVO */
+  .aos-pa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  /* NOVO */
+  .modal-body {
+    padding: 0 1rem;
+    margin-top: 0;
+  }
+  
+  /* NOVO */
+  .tab-content p,
+  .tab-content ul li,
+  .tab-content ol li {
     color: white;
-}
+  }
