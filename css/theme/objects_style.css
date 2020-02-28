@@ -247,7 +247,7 @@
     text-align: center;
     line-height: 22px;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
     z-index: 3;
 }
 
@@ -273,7 +273,7 @@
 
 .especialista .caixa-destaque-title {
     color: var(--THEME_COLOR_MODULE_ONE);
-    width: 210px;
+    width: 280px;
 }
 
 .patch {
