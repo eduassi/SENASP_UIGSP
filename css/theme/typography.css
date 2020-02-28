@@ -238,20 +238,21 @@ figcaption {
     background-image: linear-gradient( var(--THEME_COLOR_MODULE_FOUR), var(--THEME_COLOR_MODULE_FOUR));
 }
 
+/* novo */
 .modulo_1 h2,
 .modulo_2 h2,
 .modulo_3 h2,
 .modulo_4 h2 {
-    text-transform: uppercase;
-    background-position: 0 0;
-    background-size: 80px 3px;
-    background-repeat: no-repeat;
-    padding-top: 10px;
-    margin-top: 80px;
-    font-weight: bold;
-    font-size: 20pt;
+  text-transform: uppercase;
+  background-position: 0 0;
+  background-size: 80px 3px;
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  /* margin-top: 2rem; */
+  font-weight: bold;
+  font-size: 20pt;
+  margin-top: 80px;
 }
-
 
 /*  H3  */
 
