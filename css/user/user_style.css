@@ -89,3 +89,8 @@ section {
     h4.modal-title{
       margin-top: 0 !important;
     }
+
+
+  .nav-tabs .nav-item {
+      background: #f0f0f0 !important;
+  }
