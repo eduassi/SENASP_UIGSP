@@ -83,3 +83,8 @@ section {
   .tab-content ol li {
     color: white;
   }
+
+    /* novo */
+    h4.modal-title{
+      margin-top: 0 !important;
+    }
