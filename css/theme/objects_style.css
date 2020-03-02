@@ -206,7 +206,7 @@
 /* NOVO */
 
 .caixa-destaque p {
-    /* margin-bottom: 0; */
+    margin-bottom: 0;
     font-family: "Roboto Slab", serif;
     font-size: 17px;
     color: rgb(105, 105, 105);
