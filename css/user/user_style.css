@@ -47,45 +47,76 @@ section {
 }
 
 
+/* NOVO */
+
+.color-light {
+    color: var(--THEME_COLOR_MODULE_ONE_LIGHT);
+}
+
 
 /* NOVO */
-.color-light{
-    color: var(--THEME_COLOR_MODULE_ONE_LIGHT);
-  }
-  
-  /* NOVO */
-  .modal-body {
+
+.modal-body {
     padding: 0 1rem;
     margin-top: 0;
-  }
-  
-  /* NOVO */
-  .aos-rw{
+}
+
+
+/* NOVO */
+
+.aos-rw {
     position: relative;
     width: 100%;
-  }
-  /* NOVO */
-  .aos-pa{
+}
+
+
+/* NOVO */
+
+.aos-pa {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-  }
-  
-  /* NOVO */
-  .modal-body {
+}
+
+
+/* NOVO */
+
+.modal-body {
     padding: 0 1rem;
     margin-top: 0;
-  }
-  
-  /* NOVO */
-  .tab-content p,
-  .tab-content ul li,
-  .tab-content ol li {
+}
+
+
+/* NOVO */
+
+.tab-content p,
+.tab-content ul li,
+.tab-content ol li {
     color: white;
-  }
-  
-    /* novo */
-    h4.modal-title{
-      margin-top: 0 !important;
+}
+
+
+/* novo */
+
+h4.modal-title {
+    margin-top: 0 !important;
+}
+
+@media screen and (max-width: 565px) {
+    .split-list .ball-txt h3 {
+        font-size: 17px !important;
     }
+    .split-list h3 {
+        margin-bottom: 0;
+        background: none;
+        margin-top: 47%;
+        padding: 0;
+    }
+    .split-list .btn-ret div {
+        line-height: 1.0rem;
+    }
+    .split-list .btn-ret {
+        font-size: 15px;
+    }
+}
