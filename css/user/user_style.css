@@ -94,3 +94,11 @@ section {
   .tab-content ol li {
     color: white;
   }
+
+  @media screen and (max-width: 768px) {
+    .text-item {
+        font-size: 16px;
+    }
+
+    
+}
