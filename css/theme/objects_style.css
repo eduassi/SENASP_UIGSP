@@ -368,32 +368,40 @@
 
 /* SAIBA MAIS END */
 
+
+/* NOVO */
+
 .borda-na-tabela {
     margin-top: 15px;
     width: 100%;
     text-align: center;
     overflow: hidden;
     border-collapse: separate;
-    border: 1px solid var(--THEME_COLOR_MODULE_ONE);
-    background: var(--THEME_COLOR_MODULE_ONE);
-    border-top-left-radius: 40px;
+    border: 1px solid #fff;
+    background: #fff;
+    /* border-top-left-radius: 40px; */
 }
+
+
+/* NOVO */
 
 table th {
     color: white;
-    background-color: var(--THEME_COLOR_MODULE_ONE);
-    ;
+    background-color: #337a57;
     font-weight: normal;
     text-align: center;
     padding: 5px;
     font-size: 20px;
 }
 
+
+/* NOVO */
+
 table td {
-    /* color: #ffffff; */
-    background-color: white;
+    color: #58595b;
+    background-color: #e5eeea;
     padding: 5px;
-    border: 1px solid var(--THEME_COLOR_MODULE_ONE);
+    /* border: 1px solid var(--THEME_COLOR_MODULE_ONE); */
 }
 
 
