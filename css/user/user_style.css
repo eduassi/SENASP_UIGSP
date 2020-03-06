@@ -90,14 +90,7 @@ section {
       margin-top: 0 !important;
     }
 
-/* novo */
 
   .nav-tabs .nav-item {
       background: #f0f0f0 !important;
   }
-
-
-/* NOVO */
-.modulo_1 .accordion .card-body p, .modulo_1 .accordion .card-body ul, .modulo_1 .accordion .card-body ol {
-    margin: 0 15px;
-}
